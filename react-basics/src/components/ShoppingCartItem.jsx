@@ -7,7 +7,7 @@ const ShoppingCartItem = ({ itemName, price, quantity, onDelete }) => {
     <div className="cart-item">
       <div>
         <p>{itemName}</p>
-        <p>{price}</p>
+        <p>{'$' + price}</p>
         <p>Quantity: {quantity}</p> 
       </div>
       {/* Render a delete button with an onClick event listener that calls the onDelete function */}
